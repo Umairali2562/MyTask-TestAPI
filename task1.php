@@ -1,14 +1,34 @@
-/*Task 1
 
-Create a character counter.
-Given an input, produce an output that gives out the character position individually.
-Example:
+<?php
+$str=$_GET['input'];
+$len=strlen($str);
+$str2=null;
+for($i=0;$i<$len;$i++){
 
-Input: Sample
+        echo $str[$i] . "-" . $i.",";
 
-Output: S-1, a-2, m-3, p-4, l-5, e-6
+}
 
-Input: Test
+?>
 
-Output: T-1, e-2, s-3, t-4/
 
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task1</title>
+</head>
+<body>
+<title>Your input please</title>
+<form action="">
+<input type="text" name="input">
+<input type="submit" name="submit">
+</form>
+</body>
+</html>
