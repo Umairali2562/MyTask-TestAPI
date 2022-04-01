@@ -25,7 +25,7 @@ for($i=0;$i<$len;$i++){
     <title>Task1</title>
 </head>
 <body>
-<title>Your input please</title>
+<b>Your input please</b>
 <form action="">
 <input type="text" name="input">
 <input type="submit" name="submit">
